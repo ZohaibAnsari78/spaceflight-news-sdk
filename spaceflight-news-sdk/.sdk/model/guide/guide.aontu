@@ -1,0 +1,14 @@
+# Guide
+
+@"@voxgig/apidef/model/guide.aontu"
+
+@"./base-guide.aontu"
+
+
+
+
+# /v4/info/ returns one object ({ version, news_sites }), not a collection.
+# The inferred `body.news_sites` turned the site names into entities and
+# dropped `version`; take the whole body instead.
+guide: entity: info: path: "/v4/info/": op: load: method: GET
+guide: entity: info: path: "/v4/info/": op: load: transform: res: "`body`"

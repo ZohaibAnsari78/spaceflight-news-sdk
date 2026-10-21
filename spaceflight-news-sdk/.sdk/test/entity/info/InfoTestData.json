@@ -1,0 +1,36 @@
+{
+  "existing": {
+    "info": {
+      "INFO00": {
+        "news_sites": [],
+        "version": "s15",
+        "id": "INFO00"
+      },
+      "INFO01": {
+        "news_sites": [],
+        "version": "s29",
+        "id": "INFO01"
+      },
+      "INFO02": {
+        "news_sites": [],
+        "version": "s3d",
+        "id": "INFO02"
+      }
+    }
+  },
+  "new": {
+    "info": {
+      "info_ref01": {
+        "news_sites": [],
+        "version": "s51"
+      }
+    }
+  },
+  "requests": {
+    "GET /v4/info/": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

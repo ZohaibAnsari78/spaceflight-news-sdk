@@ -1,0 +1,38 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      description: `The Spaceflight News API (SNAPI) is a product by [The Space Devs](https://thespacedevs.com) (TSD). It's the most complete and up-to-date spaceflight news API currently available.
+
+While this API is **free to use**, we do encourage developers to support us through [Patreon](https://www.patreon.com/TheSpaceDevs) to keep the API up and running.
+
+ ### GraphQL
+
+ The Spaceflight News API also has GraphQL support available! You can find the GraphiQl IDE [here](https://api.spaceflightnewsapi.net/v4/graphql/).
+
+ ### FAQs & Tutorials
+
+ - [GitHub repository](https://github.com/TheSpaceDevs/Tutorials/): contains FAQs and tutorials for TSD APIs
+
+ - [TSD FAQ](https://github.com/TheSpaceDevs/Tutorials/blob/main/faqs/faq_TSD.md): TSD-specific FAQ (e.g. history, network, funding, etc.)
+
+ - [SNAPI FAQ](https://github.com/TheSpaceDevs/Tutorials/blob/main/faqs/faq_SNAPI.md): SNAPI-specific FAQ
+
+ ### Feedback & Support
+
+ If you need any help with SNAPI, you can ask in the [\`💬feedback-and-help\`](https://discord.com/channels/676725644444565514/1019976345884827750) forum of the TSD [Discord server](https://discord.gg/p7ntkNA) or email [derk@spaceflightnewsapi.net](mailto:derk@spaceflightnewsapi.net).`
+      servers: [
+        {
+          url: "https://api.spaceflightnewsapi.net"
+        }
+      ]
+      summary: "The Spaceflight News API (SNAPI) is a product by [The Space Devs](https://thespacedevs.com) (TSD)."
+      title: "Spaceflight News API"
+      version: "4.33.0 (v4)"
+      website: "https://spaceflightnewsapi.net"
+    }
+  }
+}
+

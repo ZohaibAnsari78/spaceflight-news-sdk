@@ -1,0 +1,40 @@
+# BasicInfoFlow
+
+main: kit: flow: BasicInfoFlow:
+{
+  entity: "info",
+  kind: "basic",
+  name: "BasicInfoFlow",
+  step: [
+    {
+      o: "list",
+      v: [
+        {
+          apply: "ItemExists",
+          def: {
+            ref: "info_ref01"
+          }
+        }
+      ]
+    }
+
+    {
+      i: {
+        ref: "info_ref01",
+        srcdatavar: "info_ref01_data",
+        suffix: "_dt0"
+      }
+
+      o: "load",
+      v: [
+        {
+          apply: "TextFieldMark",
+          def: {
+            mark: "Mark01-info_ref01"
+          }
+        }
+      ]
+    }
+  ],
+  "key$": "BasicInfoFlow"
+}
